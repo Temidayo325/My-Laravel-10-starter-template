@@ -14,8 +14,11 @@ return new class extends Migration
         Schema::create('students', function (Blueprint $table) {
             $table->id();
             $table->string("admission_number", 10);
-            $table->double("result", 5, 2);
-            $table->text("answers");
+            $table->set("gender", ['male', 'female']);
+            $table->string("state", 12);
+            $table->double("result", 5, 2)->nullable();
+            $table->text("answers")->nullable();
+            $table->integer('score', 5)->nullable();
             $table->timestamps();
         });
     }
