@@ -22,9 +22,10 @@ class StudentRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'admission_number' => 'required|string',
+            'admission_number' => 'required|string|unique:students,admission_number',
             'gender' => 'required|string|in:male,female',
-            'state' => 'required|string|max:15'
+            'state' => 'required|string|max:15',
+            'school_type' => 'required|string|in:public,private'
         ];
     }
 }

@@ -18,13 +18,20 @@ class CreateNewStudent
 	public function __invoke()
 	{
 		// dd($this->student);
-		$newStudents = Student::create([
-			'gender' => $this->student->gender,
-			'admission_number' => $this->student->admission_number,
-			'state' => $this->student->state,
-			'result' => null,
-			'answers' => null
-		]);
-		return $newStudents;
+		try {
+			$newStudents = Student::create([
+				'gender' => $this->student->gender,
+				'admission_number' => $this->student->admission_number,
+				'state' => $this->student->state,
+				'result' => null,
+				'answers' => null,
+				'school_type' => $this->student->school_type,
+				'theoryResult' => 0,
+				'theoryAnswers' => Null
+			]);
+			return $newStudents;
+		} catch (\Exception $e) {
+			throw new \Exception($e->getMessage());
+		}
 	}
 }

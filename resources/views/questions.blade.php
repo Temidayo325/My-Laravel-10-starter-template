@@ -6,16 +6,16 @@
 	<title>Handcraft each question</title>
 	@vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="w-screen overflow-x-hidden ">
+<body class="w-screen overflow-x-hidden text-black">
 	<div class="w-full flex justify-center items-center relative">
 		<form action="/submitAssessment" method="post" class="w-3/5 my-10 py-20 border-black">
 			<ol class="list-decimal">
 				<li class="questions h-screen mb-28">
-					<p class="font-bold text-lg">Distinguish between the following pairs of terms:</p>
+					<p class="font-bold text-lg text-black">Distinguish between the following pairs of terms:</p>
 					<ul class="ml-10">
 						<li class="mb-10 mt-4">
 							<label class="block text-md font-medium">Capital expenditure and Recurrent expenditure</label>
-							<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md "></textarea>
 						</li>
 						<li class="mb-10">
 							<label class="block text-md font-medium">Fiscal policy and Monetary policy</label>
@@ -108,11 +108,17 @@
 	</div>
 </body>
 <script>
+	{{-- [ --}}
+      //   "answer_type" => "word|list",
+      //   "mark" => 10,
+      //   "answer" => ,
+      //   "scheme" => 
+      // ]
 	const questions = document.querySelectorAll('.questions');
 	console.log(questions);
-	// for(const question of questions)
-	// {
-	// 	question.classList.add('hidden')
-	// }
+	for(const question of questions)
+	{
+		question.classList.add('hidden')
+	}
 </script>
 </html>
