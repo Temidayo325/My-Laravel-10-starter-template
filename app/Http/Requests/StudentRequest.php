@@ -25,7 +25,8 @@ class StudentRequest extends FormRequest
             'admission_number' => 'required|string|unique:students,admission_number',
             'gender' => 'required|string|in:male,female',
             'state' => 'required|string|max:15',
-            'school_type' => 'required|string|in:public,private'
+            'school_type' => 'required|string|in:public,private',
+            'age' => 'required|integer|max:22'
         ];
     }
 }

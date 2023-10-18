@@ -12,13 +12,18 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('students', function (Blueprint $table) {
+            // 'state', 'gender', 'admission_number', 'result', 'score', 'answer', 'school_type', 'theoryResult', 'theoryAnswers'
             $table->id();
             $table->string("admission_number", 10);
             $table->set("gender", ['male', 'female']);
             $table->string("state", 12);
             $table->double("result", 5, 2)->nullable();
             $table->text("answers")->nullable();
-            $table->integer('score', 5)->nullable();
+            $table->integer('score', false, true);
+            $table->integer('age', false, true);
+            $table->set('school_type', ['public', 'private']);
+            $table->double("theoryResult", 5, 2)->nullable();
+            $table->text("theoryAnswers")->nullable();
             $table->timestamps();
         });
     }

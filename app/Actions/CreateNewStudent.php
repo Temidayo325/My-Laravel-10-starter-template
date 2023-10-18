@@ -24,10 +24,12 @@ class CreateNewStudent
 				'admission_number' => $this->student->admission_number,
 				'state' => $this->student->state,
 				'result' => null,
+				'score' => 0,
 				'answers' => null,
 				'school_type' => $this->student->school_type,
 				'theoryResult' => 0,
-				'theoryAnswers' => Null
+				'theoryAnswers' => Null,
+				'age' => $this->student->age
 			]);
 			return $newStudents;
 		} catch (\Exception $e) {

@@ -2,19 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta autocorrect="off" autocomplete="off" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Economic Assessment page</title>
 	@vite(['resources/css/app.css', 'resources/js/app.js'])
 	<style>
 		body{
-			 Lined background 
 	    	background-image: linear-gradient(#d1d5db 1px, transparent 0px);
 	    	background-size: 100% 2em;
 
-		    
-		    Display the content on top of the lines.
-		    The line height must be the same as the background size defined above
-		    
 	    	background-position-y: 1.5rem;
 	    	line-height: 2.2em;
 		}
@@ -77,17 +72,17 @@
 					<p>From the data above, answer the following questions. Calculate the:</p>
 					<li>
 						<label for="gdp" class="block text-md font-medium">(a)Gross Domestic Product (GDP);</label>
-							<textarea name="option2" id="gdp" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
+							<textarea autocorrect="off" autocomplete="off" name="option2" id="gdp" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
 					</li>
 
 					<li>
 						<label for="gnp" class="block text-md font-medium">(b)Gross National Product (GNP)</label>
-							<textarea id="gnp" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
+							<textarea id="gnp" autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
 					</li>
 
 					<li>
 						<label for="nnp" class="block text-md font-medium">(c)Net National Product (NNP)</label>
-							<textarea  name="option2" id="nnp" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
+							<textarea  autocorrect="off" autocomplete="off" name="option2" id="nnp" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
 					</li>
 				</ol>
 			</div>
@@ -98,104 +93,104 @@
 					<ul class="ml-10">
 						<li class="mb-10 mt-4">
 							<label class="block text-md font-medium">Capital expenditure and Recurrent expenditure</label>
-							<textarea x-model="one.answer" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
+							<textarea x-model="one.answer" autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md one"></textarea>
 						</li>
 						<li class="mb-10">
 							<label class="block text-md font-medium">Fiscal policy and Monetary policy</label>
-							<textarea x-model="two.answer" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea x-model="two.answer" autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 						</li>
 						<li>
 							<label for="block text-md font-medium">Explain four (4) reasons why government of a country imposes taxes.</label>
 
-							<textarea  name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
-							<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
-							<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
-							<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
+							<textarea  autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
+							<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
+							<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
+							<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_one"></textarea>
 						</li>
 					</ul>
 				</li>
 				<li class="questions min-h-screen mb-28">
 					<p class="font-bold text-lg">What is money?</p>
-					<textarea x-model="three.answer" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md" x-model="four"></textarea>
+					<textarea x-model="three.answer" autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md" x-model="four"></textarea>
 
 					<p class="font-bold text-lg">Explain the following concepts:</p>
 					<ul class="ml-5 mt-3">
 						<li class="">
 							<label class="block text-md font-medium">The value of money</label>
-							<textarea x-model="four.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md" x-model="five"></textarea>
+							<textarea x-model="four.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md" x-model="five"></textarea>
 						</li>
 						<li>
 							<label class="block text-md font-medium">The demand for money</label>
-							<textarea x-model="five.answer" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea x-model="five.answer" autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 						</li>
 					</ul>
 					<p class="font-bold text-lg">Identify any four (4) determinants of transactions demand for money</p>
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_two"></textarea>
 				</li>
 				<li class="questions min-h-screen mb-28 py-28">
 					<p class="font-bold text-lg">What is Economic integration</p>
 
-					<textarea x-model="six.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+					<textarea x-model="six.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 
 					<p class="font-bold text-lg mt-5">Outline any three short-comings of Economic Community of West African States (ECOWAS)</p>
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_three"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_three"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_three"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_three"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_three"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_three"></textarea>
 
 					<p class="font-bold text-lg mt-5">Highlight ant three achievements of the Economic Community of West African States (ECOWAS)</p>
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_four"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_four"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_four"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_four"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_four"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_four"></textarea>
 				</li>
 				<li class="questions min-h-screen mb-28">
 					<p class="font-bold text-lg" >Distinguish between domestic and external trade</p>
-					<textarea x-model="seven.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+					<textarea x-model="seven.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 
 					<p class="font-bold text-lg mt-5">Distinguish between term of trade and balance of trade.</p>
-					<textarea x-model="eight.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+					<textarea x-model="eight.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 
 					<p class="font-bold text-lg mt-6">Outline four causes of balance of payments deficit in a country.</p>
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_five"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_five"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_five"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_five"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_five"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_five"></textarea>
 				</li>
 				<li class="questions min-h-screen mb-28">
 					<p class="font-bold text-lg">Differentiate between Labour force and efficiency of labour</p>
-					<textarea x-model="nine.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+					<textarea x-model="nine.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 
 					<p class="font-bold text-lg mt-10">Describe five factors which determine the size of the labour force in a country.</p>
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
 
-					<textarea name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
+					<textarea autocorrect="off" autocomplete="off" name="option2" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-24 focus:shadow-md list_six"></textarea>
 				</li>
 				<li class="questions min-h-screen mb-28 pb-20">
 					<ul>
 						<p class="font-bold text-lg">Distinguish between</p>
 						<li class="mt-5">
 							<label class="block text-md font-medium">Money cost and Opportunity cost</label>
-							<textarea x-model="ten.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea x-model="ten.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 						</li>
 						<li class="mt-3">
 							<label class="block text-md font-medium">Normal goods and Inferior goods</label>
-							<textarea x-model="eleven.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea x-model="eleven.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 						</li>
 					</ul>
 
@@ -203,23 +198,30 @@
 						<p class="font-bold text-lg">Explain how the scale of preference assist the following economic groups in making efficient allocation of their resources:</p>
 						<li class="ml-8 mb-3">
 							<label class="block text-md font-medium">Individual</label>
-							<textarea x-model="twelve.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea x-model="twelve.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 						</li>
 						<li class="ml-8 mb-3">
 							<label class="block text-md font-medium">Firms</label>
-							<textarea x-model="thirteen.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea x-model="thirteen.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 						</li>
 						<li class="ml-8 mb-3">
 							<label class="block text-md font-medium">Government</label>
-							<textarea x-model="fourteen.answer" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
+							<textarea x-model="fourteen.answer" autocorrect="off" autocomplete="off" name="" id="" class="w-full py-2 px-2 my-2 mb-4 block border-2 border-gray-200 w-3/5 h-44 focus:shadow-md"></textarea>
 						</li>
 					</ul>
 				</li>
 			</ol>
 			<button type="submit" class="px-10 py-4 bg-black shadow-md hover:shadow-lg  text-white text-lg fixed right-10 bottom-10" @click.prevent="submitPaper()">Submit paper</button>
 		</form>
-		<div x-init="let arr = document.querySelector('#gdp').value;">
-			
+		<div x-init="timervalues.currentTime = 150 * 60
+            setTimeout(() => {
+                 timervalues.ongoing = setInterval(() => {
+                      timer()
+                  }, 1000)
+            }, 1000)" class="flex justify-center my-5 fixed right-10 text-black bg-white top-10">
+               <div class="border border-gray-700 rounded-lg py-6 px-12 shadow-xl border-b-2">
+                    <h1 class="font-bold text-2xl" x-text="timervalues.minutes + ' : ' + timervalues.seconds"></h1>
+               </div>
 		</div>
 	</div>
 
@@ -245,6 +247,7 @@
 	        	twelve: { scheme: 'Individual: When an individual is faced with the problem of limited resources, a scale of preference will enable such an individual to order/arrange his wants according to which one gives the highest amount of satisfaction/ is urgently needed/ is the most important. He will then allocate his resources to obtain the want that gives the highest amount of satisfaction.', answer_type: 'word', mark: 4, answer: '' },
 	        	thirteen: { scheme: 'Firms: A firm is also faced with the problem of limited resources needed to produce everything it wants. It will therefore rank its production according to which product will give highest amount of satisfaction which is measured in terms of profit. The firm will therefore allocate its resources according to which product gives the highest amount of profit.', answer_type: 'word', mark: 4, answer: '' },
 	        	fourteen: { scheme: 'Government is also faced with the problem of limited resources/revenue. It cannot therefore produce all the goods and services it wants. It will therefore rank the goods and services according to which one will give the citizenry the highest amount of well-being or welfare. It will therefore allocate the resources to produce such goods and services.', answer_type: 'word', mark: 4, answer: '' },
+	        	timervalues: {minutes: 0, seconds: 0, currentTime: 0, ongoing: 0},
 	            changedInput() {
 	            	            	
 	            },
@@ -369,7 +372,7 @@
 	            	let gnp = document.querySelector('#gnp').value
 	            	let nnp = document.querySelector('#nnp').value
 
-	            	axios.post('http://127.0.0.1:8000/api/submit', {
+	            	axios.post('api/submit', {
 	            		payload: JSON.stringify($array), gdp: gdp, gnp: gnp, nnp: nnp,
 	            		admission_number: this.admission_number,
 	            	})
@@ -383,7 +386,25 @@
 	            	.catch( () => {
 	            		alert("Unable to submit paper");
 	            	})
-	            }
+	            },
+	            timer()
+			  	{
+			       this.timervalues.minutes = Math.floor(this.timervalues.currentTime / 60)
+			       this.timervalues.seconds  = (this.timervalues.currentTime % 60)
+			       this.timervalues.currentTime =  this.timervalues.currentTime - 1
+			       if (this.timervalues.minutes < 10) {
+			          this.timervalues.minutes = "0"+ this.timervalues.minutes
+			       }
+			       if (this.timervalues.seconds < 10) {
+			          this.timervalues.seconds = "0"+ this.timervalues.seconds
+			       }
+			       if (this.timervalues.currentTime > 0) {
+			          this.timervalues.currentTime = this.timervalues.currentTime - 1
+			       }else{
+			          clearInterval()
+			          this.submitPaper()
+			       }
+			   	}
 	        }))
 	    })
 </script>
